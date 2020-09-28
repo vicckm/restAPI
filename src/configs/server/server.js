@@ -1,7 +1,8 @@
-const app = require('./custom-express');
+const { app } = require('./custom-express');
+const { express } = require('./custom-express');
 const middlewares = require('../middlewares/middlewares');
 const routes = require('../../routes/routes');
-const port = 3000;
+const port = 8080;
 
 middlewares(app);
 
